@@ -96,7 +96,7 @@ export default defineConfig({
   // https://docs.astro.build/en/guides/prefetch/
   prefetch: true,
   site: "https://vmlvaske.github.com",
-  base: '/density-debris',
+  base: '/',
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],

@@ -29,15 +29,14 @@
 
 .time-line-container>div:last-child .education__time>.education__line {
   display: none;
-  color: green;
 }
 
 :root {
-  --accent: #2337ff;
+  --accent: #cb2a42;
   /* Color for light mode */
 }
 
 [data-theme="dark"] {
-  --accent: #00ffff;
+  --accent: #29bc89;
   /* Color for dark mode */
 }

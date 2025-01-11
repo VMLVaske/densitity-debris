@@ -23,5 +23,5 @@ jobs:
   build-validation:
     runs-on: ubuntu-latest
     steps:
-      - Build the project
+      - name: Build the project
         run: npm run build

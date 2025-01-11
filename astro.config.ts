@@ -19,6 +19,8 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeUnwrapImages from "rehype-unwrap-images";
 
+const base = process.env.BASE_PATH || '/density-debris'
+
 // https://astro.build/config
 export default defineConfig({
   image: {

@@ -34,7 +34,7 @@ export const menuLinks: { path: string; title: string }[] = [
     title: "Resume",
   },
   {
-    path: "densitity-debris/portfolio/",
+    path: "/densitity-debris/portfolio/",
     title: "Portfolio",
   },
   {

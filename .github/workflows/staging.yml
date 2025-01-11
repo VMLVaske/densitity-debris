@@ -15,13 +15,12 @@ permissions:
   id-token: write
 
 jobs:
-  lint:
+  lint and build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout git repo
+        uses: actions/checkout@v4
       - name: Run Linter
         run: npm run lint
-  build-validation:
-    runs-on: ubuntu-latest
-    steps:
       - name: Build the project
         run: npm run build

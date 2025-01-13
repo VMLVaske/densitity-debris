@@ -26,15 +26,15 @@ export const siteConfig: SiteConfig = {
 // Used to generate links in both the Header & Footer.
 export const menuLinks: { path: string; title: string }[] = [
   {
-    path: "/densitity-debris/about/",
+    path: "/about/",
     title: "About",
   },
   {
-    path: "/densitity-debris/cv/",
+    path: "/cv/",
     title: "Resume",
   },
   {
-    path: "/densitity-debris/portfolio/",
+    path: "/portfolio/",
     title: "Portfolio",
   },
   {

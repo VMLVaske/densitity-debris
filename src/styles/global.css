@@ -31,12 +31,49 @@
   display: none;
 }
 
+.education__time {
+  position: relative;
+  /* Ensure the line can be positioned relative to the bullet */
+}
+
+.education__line {
+  position: absolute;
+  /* Position the line absolutely */
+  top: 5px;
+  /* Start from the top of the container */
+  bottom: 0;
+  /* Stretch to the bottom of the container */
+  background-color: var(--accent);
+  /* Adjust color and opacity as needed */
+  width: 2px;
+  /* Width of the line */
+}
+
+.btn-download {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--accent);
+  color: var(--theme-text);
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: background-color 0.3s;
+}
+
+.btn-download:hover {
+  background-color: var(--theme-accent-2);
+  border-radius: 5px;
+  border-color: var(--accent);
+  /* Darker shade for hover effect */
+}
+
 :root {
-  --accent: #cb2a42;
+  --accent: hsl(351, 66%, 48%);
+
   /* Color for light mode */
 }
 
 [data-theme="dark"] {
-  --accent: #29bc89;
+  --accent: hsl(159, 64%, 45%);
   /* Color for dark mode */
 }
